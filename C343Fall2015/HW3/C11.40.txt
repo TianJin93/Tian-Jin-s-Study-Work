@@ -1,0 +1,56 @@
+Class AVLTreeMap(TreeMap):
+
+	class _Node(TreeMap._Node):
+		__slot__ = '_bf'      # bf -> balance factor
+		
+		def __init__(self, element, parent=None, left=None, right=None):
+			super().__init__(element, parent, left,right)
+			self._bf = 0
+		
+		def left_bf(self):
+			if self._left != None:
+				return self._left._bf
+			else: 
+				return 0
+		
+		def right_bf(self):
+			if self._right != None:
+				return self._right._bf
+			else: 
+				return 0
+	
+	def _recompute_bf(self, p):
+		p._node._bf = p._node.left_bf() - p._node.right_bf()
+	
+	def _isbalanced(self, p):
+		return if abs(p._node._bf) <= 1:
+		
+	def _tall_child(self, p, favorleft=False):
+		if p._node._bf() > 0:
+			return self.left(p)
+		else:
+			return self.right(p)
+			
+	def _tall_grandechild(self, p):
+		child = self._tall_child(p)
+		slignment = (child == self.left(p))
+		return self._tall_child(child, alignment)
+	
+	def _rebalance(self, p):
+		while p != None:
+			old_bf = p._node._bf
+			if not self._isbalanced(p):
+				p = self._restructure(self._tall_grandchild(p))
+				self._recompute_bf(self.left(p))
+				self._recompute_bf(self.right(p))
+			self._recompute_bf(p)
+			if p._node._bf == old_bf:
+				p = None
+			else:
+				p = self.parent(p)
+				
+	def _rebalance_insert(self, p):
+		self._rebalance(p)
+	
+	def _rebalance_delete(self, p):
+		self._rebalance(p)
