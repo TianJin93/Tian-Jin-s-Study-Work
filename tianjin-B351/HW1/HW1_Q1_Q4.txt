@@ -1,0 +1,60 @@
+Homework1 Question1-5
+
+Question1
+I think A.L.I.C.E. use a database to answer the users. She can catch the key words in users¡¯ 
+question and match it in her database. 
+She has the knowledge of common conversation. She can communicate with us as the default
+ knowledge such as how is she, what¡¯s its gender. However, she can¡¯t provide the correct 
+answer of the questions such as how is the weather today. So, I think she only have the 
+knowledge of basic communicate.
+
+Question2
+judge: which is the tallest building in the world 
+ALICE: The obvious one. 
+judge: what's the name of the tallest building in the world 
+ALICE: IKEA. 
+
+judge: how is best pianist in the world 
+ALICE: Fine as far as I know. 
+
+judge: what's the composition of water 
+ALICE: That's not something I get asked all the time. 
+
+One of the problem I found is that she cannot answer any questions besides basic communication.
+I think we can add a search method to her. When A.L.I.C.E find some key words such as 
+composition, tallest, best, she can google the question online and reply the best online answer to 
+the users.
+
+Question3
+I believe that the latter statement is true. All of the intelligent behavior of computers are designed 
+by human. Computers only follows the code from programmer. For example, A.L.I.C.E only 
+can follow the default database. This my test conversation with her. 
+
+judge: i think you are stupid 
+ALICE: Absolutely. 
+judge: are you still happy 
+ALICE: Yes judge I can say I am very happy.
+
+This conversation shows that she cannot not thinking as human. 
+So, I believe the latter statement imply the former.
+
+
+
+Question4
+
+3200
+
+First, I searched the sales of Starbucks online. Them we can get the data: According to USA Today, 
+Starbucks sells 4 million coffee drinks per day. According to the company's website, they serve 60
+ million customers each week.
+Then, I did some simple math work. 60 / 7 = 8.57 million people per day. 4 / 8.57 = 0.4667 coffee 
+per person per day
+And, there are about 40000 students in our school and half of them will went to IMU every day. 
+So 40000/ 2 = 20000 people.
+And latte is one of the most popular coffee of Starbucks, about 35% people will buy it. 
+0.4667*20000*0.35 = 3266.9
+
+So, I think the Starbucks will sell 3200 latte every day.
+
+For the AI system, it should have the ability of computing and analyzing the data. It should understand 
+how to count the per day data from the total data.
